@@ -2,6 +2,9 @@
   "name": "ai-class-scheduler-with-functions",
   "version": "1.0.0",
   "description": "An intelligent web application to help school administrators assign classes to classrooms without conflicts.",
+  "scripts": {
+    "build": "mkdir -p dist && cp index.html index.tsx App.tsx types.ts constants.ts metadata.json dist/ && cp -r components hooks services utils dist/"
+  },
   "dependencies": {
     "@google/genai": "^1.9.0",
     "@netlify/functions": "^4.1.10"
