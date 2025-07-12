@@ -1,0 +1,6 @@
+{
+  "name": "AI Class Scheduler",
+  "description": "An intelligent web application to help school administrators assign classes to classrooms without conflicts, respecting professor availability. It uses AI to generate optimal schedules and provides tools for manual adjustments and management.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
